@@ -1,0 +1,243 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("images/skybackground.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+
+
+
+}
+
+.right {
+	padding: 4%;
+	margin: 0px auto;
+	text-align: right;
+	margin-right: 3%;
+	width: 60%;
+
+}
+
+
+#logo {
+	float: left;
+	width: 12%;
+	margin: 0px auto 0 3%;
+}
+
+#logopurple {
+	float: left;
+	margin-top: 200px;
+	margin-left: 3%;
+	width: 30%;
+	min-width: 150px;
+}
+
+h1 {
+	font-family: "hobeaux", sans-serif;
+	font-size: 4em;
+	margin: 0px auto 10px auto;
+	color: #ffedb4;
+	margin-top: 200px;
+	/*letter-spacing: 0.02em;*/
+}
+
+h2 {
+	font-family: "hobeaux", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.4;
+	color: #ffedb4;
+	padding: 0px 0px;
+	margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: "hobeaux", sans-serif;
+	font-size: 1.2em;
+	line-height: 1.6;
+	color: #ffedb4;
+}
+nav{
+	font-family: "hobeaux", sans-serif;
+	font-size: 1.2em;
+	width: 100%; /* This is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside
+	the center div */
+	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the nav element, the zero eliminates the left and right sides of the border */ text-align: right;
+	background-color: #ddbfff;
+	position:fixed;
+	height: 20%;
+	}
+	nav li{
+		 display: inline; /* This allows
+		 the block level elements to
+		 display next to one another */
+		 }
+	nav a{display: inline-block;
+	padding: 30px; /* This adds space around each of the links */
+	}
+	a{
+		 color: #ffedb4;
+		 text-decoration: none; /* This
+		 removes the underline */
+		 font-weight: bold;
+		 margin: 3% 3% 10% auto;
+		 }
+	a:hover{
+		 color: #ddbfff;
+		 background: #ffedb4; /* This is the
+		 pink hover effect -- you’ll want to
+		 change this! */
+		 border-radius: 20px 20px 20px 20px; /* This adds round edged to the hover background */
+		 transition: background-color 1s;
+
+		 }
